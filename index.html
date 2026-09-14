@@ -1,434 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kiran Farid — Science Teacher &amp; Frontend Developer (Part-Time)</title>
-    <meta name="description"
-        content="Kiran Farid — School Teacher, with part-time frontend web development skills in HTML5, CSS3, JavaScript and Bootstrap." />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kiran Farid — Science Teacher &amp; Frontend Developer (Part-Time)</title>
+<meta name="description" content="Kiran Farid — School Teacher, with part-time frontend web development skills in HTML5, CSS3, JavaScript and Bootstrap." />
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
-        rel="stylesheet">
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Icons -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
 
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="style.css">
+<!-- Custom styles -->
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- Scroll progress bar -->
-    <div class="scroll-progress" id="scrollProgress"></div>
+<!-- Scroll progress bar -->
+<div class="scroll-progress" id="scrollProgress"></div>
 
-    <!-- ===================== NAVBAR ===================== -->
-    <nav class="kf-nav" id="kfNav">
-        <div class="kf-nav-inner">
-            <a href="#home" class="kf-logo">
-                Kiran<span class="kf-logo-accent">Farid</span>
-            </a>
+<!-- ===================== NAVBAR ===================== -->
+<nav class="kf-nav" id="kfNav">
+  <div class="kf-nav-inner">
+    <a href="#home" class="kf-logo">
+      Kiran<span class="kf-logo-accent">Farid</span>
+    </a>
 
-            <button class="kf-burger" id="kfBurger" aria-label="Toggle menu" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
-
-            <ul class="kf-links" id="kfLinks">
-                <li><a href="#home" class="kf-link active" data-link>Home</a></li>
-                <li><a href="#about" class="kf-link" data-link>About</a></li>
-                <li><a href="#experience" class="kf-link" data-link>Teaching</a></li>
-                <li><a href="#education" class="kf-link" data-link>Education</a></li>
-                <li><a href="#frontend" class="kf-link" data-link>Frontend</a></li>
-                <li><a href="#contact" class="kf-link kf-link-cta" data-link>Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <main>
-
-        <!-- ===================== HERO ===================== -->
-        <section id="home" class="hero">
-            <div class="hero-glow" aria-hidden="true"></div>
-            <div class="container hero-grid">
-
-                <div class="hero-copy">
-                    <p class="hero-kicker">Science Teacher</p>
-                    <h1 class="hero-title">
-                        Hi, I'm Kiran Farid.<br>
-                        I teach science with<br>
-                        <span class="hero-title-underline">patience and clarity.</span>
-                    </h1>
-                    <p class="hero-desc">
-                        A full-time school teacher based in Arifwala, Pakistan, helping students build a strong
-                        foundation in science. Alongside teaching, I also work part-time as a frontend web developer.
-                    </p>
-
-                    <div class="hero-actions">
-                        <a href="#contact" class="btn-kf btn-kf-solid">Get in touch</a>
-                        <a href="#experience" class="btn-kf btn-kf-ghost">Teaching experience</a>
-                    </div>
-
-                    <div class="hero-meta">
-                        <div class="hero-meta-item">
-                            <i class="bi bi-geo-alt"></i>
-                            <span>Arifwala, Pakpattan, Pakistan</span>
-                        </div>
-                        <div class="hero-meta-item">
-                            <i class="bi bi-mortarboard"></i>
-                            <span>BS Zoology, GCUF</span>
-                        </div>
-                        <div class="hero-meta-item">
-                            <i class="bi bi-code-slash"></i>
-                            <span>Frontend Dev (Part-time)</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hero-visual">
-                    <div class="teach-card">
-                        <div class="teach-card-top">
-                            <div class="teach-card-badge"><i class="bi bi-mortarboard-fill"></i></div>
-                            <div>
-                                <p class="teach-card-name">Kiran Farid</p>
-                                <p class="teach-card-role">Science Teacher</p>
-                            </div>
-                        </div>
-
-                        <ul class="teach-card-list">
-                            <li><i class="bi bi-check-circle"></i><span>Subject: <strong>[Subject — e.g.
-                                        Science/Biology]</strong></span></li>
-                            <li><i class="bi bi-check-circle"></i><span>Grade level: <strong>[Class/Grade
-                                        level]</strong></span></li>
-                            <li><i class="bi bi-check-circle"></i><span>Teaching since: <strong>[Year]</strong></span>
-                            </li>
-                            <li><i class="bi bi-check-circle"></i><span>School: <strong>[School name]</strong></span>
-                            </li>
-                        </ul>
-
-                        <div class="teach-card-tag">
-                            <i class="bi bi-info-circle"></i>
-                            Placeholder details — update with real school info
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <a href="#about" class="scroll-cue" aria-label="Scroll to about section">
-                <span></span>
-                <i class="bi bi-chevron-down"></i>
-            </a>
-        </section>
-
-        <!-- ===================== ABOUT ===================== -->
-        <section id="about" class="section">
-            <div class="container">
-                <div class="section-head reveal">
-                    <h2 class="section-title">About me</h2>
-                    <p class="section-sub">A little bit about how I got here.</p>
-                </div>
-
-                <div class="about-grid">
-                    <div class="about-text reveal">
-                        <p>
-                            I hold a BS in Zoology from Government College University Faisalabad, and I currently
-                            work as a full-time school teacher, helping students in science build clear, confident
-                            understanding of the subjects they study.
-                        </p>
-                        <p>
-                            Teaching is my main focus — I care about explaining ideas simply, being patient with
-                            students at every level, and making science approachable rather than intimidating.
-                        </p>
-                        <p>
-                            Alongside teaching, I completed focused web designing training at Dot Tech Hub in 2025,
-                            and I now take on frontend web development as part-time work — practicing HTML5, CSS3,
-                            JavaScript, and responsive design with Bootstrap.
-                        </p>
-                    </div>
-
-                    <div class="about-cards reveal">
-                        <div class="about-card">
-                            <div class="about-card-icon"><i class="bi bi-mortarboard"></i></div>
-                            <h3>Teaching first</h3>
-                            <p>Full-time school teacher, focused on science education for students.</p>
-                        </div>
-                        <div class="about-card">
-                            <div class="about-card-icon"><i class="bi bi-patch-check"></i></div>
-                            <h3>Patient &amp; clear</h3>
-                            <p>Explaining concepts simply so every student can follow along.</p>
-                        </div>
-                        <div class="about-card">
-                            <div class="about-card-icon"><i class="bi bi-code-slash"></i></div>
-                            <h3>Frontend, part-time</h3>
-                            <p>Building responsive websites with HTML, CSS, JavaScript &amp; Bootstrap.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ===================== TEACHING EXPERIENCE ===================== -->
-        <section id="experience" class="section section-alt">
-            <div class="container">
-                <div class="section-head reveal">
-                    <h2 class="section-title">Teaching experience</h2>
-                    <p class="section-sub">Where I teach, and what I focus on in the classroom.</p>
-                </div>
-
-                <div class="experience-card reveal">
-                    <div class="experience-card-icon">
-                        <i class="bi bi-building"></i>
-                    </div>
-                    <div class="experience-card-body">
-                        <div class="experience-card-top">
-                            <h3>[School Name — Arifwala]</h3>
-                            <span class="experience-year">Since [Year]</span>
-                        </div>
-                        <p class="experience-title">[Job Title — e.g. Science Teacher]</p>
-                        <p class="experience-desc">
-                            Teaching <strong>[Subject(s)]</strong> to
-                            <strong>[Class/Grade level]</strong> students, with a focus on building
-                            strong fundamentals, clear explanations, and consistent classroom support.
-                        </p>
-                        <div class="experience-note">
-                            <i class="bi bi-pencil-square"></i>
-                            Replace the bracketed placeholders above with the real school name, title, subject,
-                            grade level, and start year.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ===================== EDUCATION ===================== -->
-        <section id="education" class="section">
-            <div class="container">
-                <div class="section-head reveal">
-                    <h2 class="section-title">Education</h2>
-                    <p class="section-sub">My academic path.</p>
-                </div>
-
-                <div class="timeline">
-
-                    <div class="timeline-item reveal">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-card">
-                            <span class="timeline-year">2023</span>
-                            <h3>BS Zoology</h3>
-                            <p class="timeline-place">Government College University Faisalabad</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item reveal">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-card">
-                            <span class="timeline-year">2019</span>
-                            <h3>F.Sc Medical</h3>
-                            <p class="timeline-place">Government College for Women, Arifwala</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item reveal">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-card">
-                            <span class="timeline-year">2017</span>
-                            <h3>Matric (Science)</h3>
-                            <p class="timeline-place">Iqra Public School, Arifwala</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- ===================== FRONTEND (PART-TIME) ===================== -->
-        <section id="frontend" class="section section-alt">
-            <div class="container">
-                <div class="section-head reveal">
-                    <h2 class="section-title">Frontend development — part-time</h2>
-                    <p class="section-sub">Web development skills I use for part-time and freelance work.</p>
-                </div>
-
-                <div class="training-card reveal">
-                    <div class="training-card-icon">
-                        <i class="bi bi-laptop"></i>
-                    </div>
-                    <div class="training-card-body">
-                        <div class="training-card-top">
-                            <h3>Web Designing</h3>
-                            <span class="training-year">2025</span>
-                        </div>
-                        <p class="training-org">Dot Tech Hub</p>
-                        <p class="training-desc">
-                            Hands-on training covering HTML5, CSS3, JavaScript fundamentals, and responsive
-                            web design practices using Bootstrap.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="skills-grid">
-
-                    <div class="skill-card reveal" data-level="85">
-                        <div class="skill-card-top">
-                            <span class="skill-name"><i class="bi bi-filetype-html"></i> HTML5</span>
-                            <span class="skill-percent">85%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-bar-fill"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-card reveal" data-level="80">
-                        <div class="skill-card-top">
-                            <span class="skill-name"><i class="bi bi-filetype-css"></i> CSS3</span>
-                            <span class="skill-percent">80%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-bar-fill"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-card reveal" data-level="70">
-                        <div class="skill-card-top">
-                            <span class="skill-name"><i class="bi bi-filetype-js"></i> JavaScript</span>
-                            <span class="skill-percent">70%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-bar-fill"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-card reveal" data-level="75">
-                        <div class="skill-card-top">
-                            <span class="skill-name"><i class="bi bi-bootstrap"></i> Bootstrap</span>
-                            <span class="skill-percent">75%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-bar-fill"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-card reveal" data-level="78">
-                        <div class="skill-card-top">
-                            <span class="skill-name"><i class="bi bi-phone-vibrate"></i> Responsive Design</span>
-                            <span class="skill-percent">78%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-bar-fill"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-card reveal" data-level="65">
-                        <div class="skill-card-top">
-                            <span class="skill-name"><i class="bi bi-palette"></i> Basic UI/UX</span>
-                            <span class="skill-percent">65%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-bar-fill"></div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- ===================== CONTACT ===================== -->
-        <section id="contact" class="section contact-section">
-            <div class="container">
-                <div class="section-head reveal">
-                    <h2 class="section-title">Get in touch</h2>
-                    <p class="section-sub">Open to teaching opportunities, tutoring, and part-time frontend work.</p>
-                </div>
-
-                <div class="contact-grid">
-
-                    <div class="contact-info reveal">
-                        <a class="contact-item" href="tel:03117251685">
-                            <div class="contact-item-icon"><i class="bi bi-telephone"></i></div>
-                            <div>
-                                <span class="contact-label">Phone</span>
-                                <span class="contact-value">0311 7251685</span>
-                            </div>
-                        </a>
-
-                        <a class="contact-item" href="mailto:mrmk41989@gmail.com">
-                            <div class="contact-item-icon"><i class="bi bi-envelope"></i></div>
-                            <div>
-                                <span class="contact-label">Email</span>
-                                <span class="contact-value">mrmk41989@gmail.com</span>
-                            </div>
-                        </a>
-
-                        <div class="contact-item contact-item-static">
-                            <div class="contact-item-icon"><i class="bi bi-geo-alt"></i></div>
-                            <div>
-                                <span class="contact-label">Address</span>
-                                <span class="contact-value">Purana Thana, Hotta Road, Arifwala,<br>District Pakpattan,
-                                    Pakistan</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <form class="contact-form reveal" id="contactForm" novalidate>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="cfName">Name</label>
-                                <input type="text" id="cfName" name="name" placeholder="Your name" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="cfEmail">Email</label>
-                                <input type="email" id="cfEmail" name="email" placeholder="you@example.com" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="cfSubject">Subject</label>
-                            <input type="text" id="cfSubject" name="subject" placeholder="What's this about?" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="cfMessage">Message</label>
-                            <textarea id="cfMessage" name="message" rows="5" placeholder="Write your message..."
-                                required></textarea>
-                        </div>
-                        <button type="submit" class="btn-kf btn-kf-solid btn-kf-block">
-                            <span id="submitLabel">Send message</span>
-                            <i class="bi bi-send"></i>
-                        </button>
-                        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
-                    </form>
-
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- ===================== FOOTER ===================== -->
-    <footer class="kf-footer">
-        <div class="container kf-footer-inner">
-            <a href="#home" class="kf-logo kf-logo-sm">
-                Kiran<span class="kf-logo-accent">Farid</span>
-            </a>
-            <p class="kf-footer-text">Science Teacher · Frontend Developer (Part-time) · Arifwala, Pakistan</p>
-            <p class="kf-footer-copy">&copy; <span id="year"></span> Kiran Farid. Built with HTML, CSS &amp; JavaScript.
-            </p>
-        </div>
-    </footer>
-
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">
-        <i class="bi bi-arrow-up"></i>
+    <button class="kf-burger" id="kfBurger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
     </button>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
-</body>
+    <ul class="kf-links" id="kfLinks">
+      <li><a href="#home" class="kf-link active" data-link>home</a></li>
+      <li><a href="#about" class="kf-link" data-link>about</a></li>
+      <li><a href="#experience" class="kf-link" data-link>teaching</a></li>
+      <li><a href="#education" class="kf-link" data-link>education</a></li>
+      <li><a href="#frontend" class="kf-link" data-link>frontend</a></li>
+      <li><a href="#contact" class="kf-link kf-link-cta" data-link>contact</a></li>
+    </ul>
+  </div>
+</nav>
 
+<main>
+
+<!-- ===================== HERO ===================== -->
+<section id="home" class="hero">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="container hero-grid">
+
+    <div class="hero-copy">
+      <p class="hero-kicker">Science Teacher</p>
+      <h1 class="hero-title">
+        Hi, I'm Kiran Farid.<br>
+        I teach science with<br>
+        <span class="hero-title-underline">patience and clarity.</span>
+      </h1>
+      <p class="hero-desc">
+        A full-time school teacher based in Arifwala, Pakistan, helping students build a strong
+        foundation in science. Alongside teaching, I also work part-time as a frontend web developer.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn-kf btn-kf-solid">Get in touch</a>
+        <a href="#experience" class="btn-kf btn-kf-ghost">Teaching experience</a>
+      </div>
+
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <i class="bi bi-geo-alt"></i>
+          <span>Arifwala, Pakpattan, Pakistan</span>
+        </div>
+        <div class="hero-meta-item">
+          <i class="bi bi-mortarboard"></i>
+          <span>BS Zoology, GCUF</span>
+        </div>
+        <div class="hero-meta-item">
+          <i class="bi bi-code-slash"></i>
+          <span>Frontend Dev (Part-time)</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="teach-card">
+        <div class="teach-card-top">
+          <div class="teach-card-badge"><i class="bi bi-mortarboard-fill"></i></div>
+          <div>
+            <p class="teach-card-name">Kiran Farid</p>
+            <p class="teach-card-role">Science Teacher</p>
+          </div>
+        </div>
+
+        <ul class="teach-card-list">
+          <li><i class="bi bi-mortarboard-fill"></i><span>Subjects: <strong>Science, Biology, Math, Computer</strong></span></li>
+          <li><i class="bi bi-people-fill"></i><span>Grade level: <strong>Primary classes (1–5)</strong></span></li>
+          <li><i class="bi bi-calendar-check-fill"></i><span>Experience: <strong>1+ Year</strong></span></li>
+          <li><i class="bi bi-building-fill"></i><span>School: <strong>Govt Primary School 12 KB</strong></span></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Scroll to about section">
+    <span></span>
+    <i class="bi bi-chevron-down"></i>
+  </a>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2 class="section-title">About me</h2>
+      <p class="section-sub">A little bit about how I got here.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          I hold a BS in Zoology from Government College University Faisalabad, and I currently
+          work as a full-time school teacher, helping students in science build clear, confident
+          understanding of the subjects they study.
+        </p>
+        <p>
+          Teaching is my main focus — I care about explaining ideas simply, being patient with
+          students at every level, and making science approachable rather than intimidating.
+        </p>
+        <p>
+          Alongside teaching, I completed focused web designing training at Dot Tech Hub in 2025,
+          and I now take on frontend web development as part-time work — practicing HTML5, CSS3,
+          JavaScript, and responsive design with Bootstrap.
+        </p>
+      </div>
+
+      <div class="about-cards reveal">
+        <div class="about-card">
+          <div class="about-card-icon"><i class="bi bi-mortarboard"></i></div>
+          <h3>Teaching first</h3>
+          <p>Full-time school teacher, focused on science education for students.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon"><i class="bi bi-patch-check"></i></div>
+          <h3>Patient &amp; clear</h3>
+          <p>Explaining concepts simply so every student can follow along.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon"><i class="bi bi-code-slash"></i></div>
+          <h3>Frontend, part-time</h3>
+          <p>Building responsive websites with HTML, CSS, JavaScript &amp; Bootstrap.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TEACHING EXPERIENCE ===================== -->
+<section id="experience" class="section section-alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2 class="section-title">Teaching experience</h2>
+      <p class="section-sub">Where I teach, and what I focus on in the classroom.</p>
+    </div>
+
+    <div class="experience-card reveal">
+      <div class="experience-card-icon">
+        <i class="bi bi-building-fill"></i>
+      </div>
+      <div class="experience-card-body">
+        <div class="experience-card-top">
+          <h3>Govt Primary School 12 KB, Arifwala</h3>
+          <span class="experience-year">Since 2025 · 1+ Year</span>
+        </div>
+        <p class="experience-title">Primary School Teacher</p>
+        <p class="experience-desc">
+          Teaching <strong>Science, Biology, Math, and Computer</strong> to
+          <strong>primary-level students (Grades 1–5)</strong>, with a focus on building
+          strong fundamentals, clear explanations, and consistent classroom support.
+        </p>
+        <div class="experience-subjects">
+          <span class="subject-badge"><i class="bi bi-lightbulb-fill"></i> Science</span>
+          <span class="subject-badge"><i class="bi bi-heart-pulse-fill"></i> Biology</span>
+          <span class="subject-badge"><i class="bi bi-calculator-fill"></i> Math</span>
+          <span class="subject-badge"><i class="bi bi-pc-display-horizontal"></i> Computer</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EDUCATION ===================== -->
+<section id="education" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2 class="section-title">Education</h2>
+      <p class="section-sub">My academic path.</p>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="timeline-year">2023</span>
+          <h3>BS Zoology</h3>
+          <p class="timeline-place">Government College University Faisalabad</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="timeline-year">2019</span>
+          <h3>F.Sc Medical</h3>
+          <p class="timeline-place">Government College for Women, Arifwala</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="timeline-year">2017</span>
+          <h3>Matric (Science)</h3>
+          <p class="timeline-place">Iqra Public School, Arifwala</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FRONTEND (PART-TIME) ===================== -->
+<section id="frontend" class="section section-alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2 class="section-title">Frontend development — part-time</h2>
+      <p class="section-sub">Web development skills I use for part-time and freelance work.</p>
+    </div>
+
+    <div class="training-card reveal">
+      <div class="training-card-icon">
+        <i class="bi bi-laptop"></i>
+      </div>
+      <div class="training-card-body">
+        <div class="training-card-top">
+          <h3>Web Designing</h3>
+          <span class="training-year">2025</span>
+        </div>
+        <p class="training-org">Dot Tech Hub</p>
+        <p class="training-desc">
+          Hands-on training covering HTML5, CSS3, JavaScript fundamentals, and responsive
+          web design practices using Bootstrap.
+        </p>
+      </div>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-card reveal" data-level="85">
+        <div class="skill-card-top">
+          <span class="skill-name"><i class="bi bi-filetype-html"></i> HTML5</span>
+          <span class="skill-percent">85%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+      </div>
+
+      <div class="skill-card reveal" data-level="80">
+        <div class="skill-card-top">
+          <span class="skill-name"><i class="bi bi-filetype-css"></i> CSS3</span>
+          <span class="skill-percent">80%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+      </div>
+
+      <div class="skill-card reveal" data-level="70">
+        <div class="skill-card-top">
+          <span class="skill-name"><i class="bi bi-filetype-js"></i> JavaScript</span>
+          <span class="skill-percent">70%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+      </div>
+
+      <div class="skill-card reveal" data-level="75">
+        <div class="skill-card-top">
+          <span class="skill-name"><i class="bi bi-bootstrap"></i> Bootstrap</span>
+          <span class="skill-percent">75%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+      </div>
+
+      <div class="skill-card reveal" data-level="78">
+        <div class="skill-card-top">
+          <span class="skill-name"><i class="bi bi-phone-vibrate"></i> Responsive Design</span>
+          <span class="skill-percent">78%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+      </div>
+
+      <div class="skill-card reveal" data-level="65">
+        <div class="skill-card-top">
+          <span class="skill-name"><i class="bi bi-palette"></i> Basic UI/UX</span>
+          <span class="skill-percent">65%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2 class="section-title">Get in touch</h2>
+      <p class="section-sub">Open to teaching opportunities, tutoring, and part-time frontend work.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-info reveal">
+        <a class="contact-item" href="tel:03117251685">
+          <div class="contact-item-icon"><i class="bi bi-telephone"></i></div>
+          <div>
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">0311 7251685</span>
+          </div>
+        </a>
+
+        <a class="contact-item" href="mailto:mrmk41989@gmail.com">
+          <div class="contact-item-icon"><i class="bi bi-envelope"></i></div>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">mrmk41989@gmail.com</span>
+          </div>
+        </a>
+
+        <div class="contact-item contact-item-static">
+          <div class="contact-item-icon"><i class="bi bi-geo-alt"></i></div>
+          <div>
+            <span class="contact-label">Address</span>
+            <span class="contact-value">Purana Thana, Hotta Road, Arifwala,<br>District Pakpattan, Pakistan</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cfName">Name</label>
+            <input type="text" id="cfName" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="cfEmail">Email</label>
+            <input type="email" id="cfEmail" name="email" placeholder="you@example.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="cfSubject">Subject</label>
+          <input type="text" id="cfSubject" name="subject" placeholder="What's this about?" required>
+        </div>
+        <div class="form-group">
+          <label for="cfMessage">Message</label>
+          <textarea id="cfMessage" name="message" rows="5" placeholder="Write your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn-kf btn-kf-solid btn-kf-block">
+          <span id="submitLabel">Send message</span>
+          <i class="bi bi-send"></i>
+        </button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="kf-footer">
+  <div class="container kf-footer-inner">
+    <a href="#home" class="kf-logo kf-logo-sm">
+      Kiran<span class="kf-logo-accent">Farid</span>
+    </a>
+    <p class="kf-footer-text">Science Teacher · Frontend Developer (Part-time) · Arifwala, Pakistan</p>
+    <p class="kf-footer-copy">&copy; <span id="year"></span> Kiran Farid. Built with HTML, CSS &amp; JavaScript.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i class="bi bi-arrow-up"></i>
+</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
 </html>
